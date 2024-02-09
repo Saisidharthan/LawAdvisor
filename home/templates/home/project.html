@@ -1,0 +1,502 @@
+{% extends 'home/main.html' %}
+{% load static %}
+{% block content %}
+    <div style="margin-top: 35px; background-color: #0d0d61;padding: 20px;border-radius: 20px;display: block;justify-content: center;align-items: center;" class="jamb jumbotron jumbotron-fluid">
+        <div class="row col-lg-12" style="display: flex;justify-content: center;">
+            <h1 class="display-4" id="header" style="color: white;margin-bottom: 30px;text-align: center;">Select your problem</h1>
+        </div>
+        <!-- main-->
+        <div class="row" id="btn0" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-1" style="background-color: #1877F2;color: white;" class="btn btn-lg">Labor law</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-2" style="background-color: #1877F2;color: white;" class="btn btn-lg">Criminal law</button>
+            </div>
+        </div>
+        <!--sub1-->
+        <div class="row" id="btn1" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-5" style="background-color: #1877F2;color: white;" class="btn btn-lg">Workers and Factories</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-6" style="background-color: #1877F2;color: white;" class="btn btn-lg">Equality and Empowerment for Women</button>
+            </div>
+        </div>
+        <div class="row" id="btn2" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-8" style="background-color: #1877F2;color: white;" class="btn btn-lg">Union</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-9" style="background-color: #1877F2;color: white;" class="btn btn-lg">Industry</button>
+            </div>
+        </div>
+        <div class="row" id="btn3" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-10" style="background-color: #1877F2;color: white;" class="btn btn-lg">Rights of the Workers</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-11" style="background-color: #1877F2;color: white;" class="btn btn-lg">Disputes between the employers and workers</button>
+            </div>
+        </div>
+        <div class="row" id="btn4" style="text-align: center;">
+            <div class="col-lg-12">
+                <p id="p-1" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 2<br>
+                Strike and Lockout<br>Court:High Court<br>
+                    Legal aid : State , High Court ,District Legal service authorities and commision,TEHSIL Legal Service Committee </p>
+            </div>
+            <div class="col-lg-12">
+                <p id="p-2" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 11 - 41 <br>
+                Right to Safe Working Conditions<br>Court: Industrial Court<br>
+                    Legal aid :National Union or Federation ,State legal service authority<br>
+                For construction labour right : National Campaign Committee </p>
+            </div>
+        </div>
+        <div class="row" id="btn5" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-12" style="background-color: #1877F2;color: white;" class="btn btn-lg">Industrial Employement Standing Order Act</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-13" style="background-color: #1877F2;color: white;" class="btn btn-lg">Industry Disputes: Disagreement between employers and Works</button>
+            </div>
+        </div>
+        <div class="row" id="btn6" style="text-align: center;">
+            <div class="col-lg-12">
+                <p id="p-3" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 9<br>
+                Posting of standing order,Display the Prominent Copies of Certified standing orders<br>Court:Industry Court<br>
+                    Legal aid :Labour Courts or Industrial Tribunals(Traditional Court)  </p>
+            </div>
+            <div class="col-lg-12">
+                <p id="p-4" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 4 <br>
+                Notice of change - Proposal to change the employement Conditions<br>Court: Industrial Court<br>
+                Legal aid :Labour Courts or Industrial Tribunals(Traditional Court)</p>
+            </div>
+        </div>
+        <div class="row" id="btn7" style="text-align: center;">
+            <div class="col-lg-6">
+                <button type="button" id="bt-14" style="background-color: #1877F2;color: white;" class="btn btn-lg">Equal Remuneration Act</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" id="bt-15" style="background-color: #1877F2;color: white;" class="btn btn-lg">Maternity Benifits</button>
+            </div>
+        </div>
+        <div class="row" id="btn8" style="text-align: center;">
+            <div class="col-lg-12">
+                <p id="p-5" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 8<br>
+                Power to make rules - Grant powers to the appropiate Government to make rules for caring of the Provison.<br>Court : Supreme Court<br>
+                    Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , BAR Association</p>
+            </div>
+            <div class="col-lg-12">
+                <p id="p-6" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 5<br>
+                Right to payment of Maternity <br>Court: Supreme Court<br>
+                Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , BAR Association</p>
+            </div>
+        </div>
+        <!--Section 2 -->
+        <div class="row" id="btn9" style="text-align: center;">
+          <div class="col-lg-4">
+              <button type="button" id="bt-16" style="background-color: #1877F2;color: white;" class="btn btn-lg">Crime</button>
+          </div>
+          <div class="col-lg-4">
+              <button type="button" id="bt-17" style="background-color: #1877F2;color: white;" class="btn btn-lg">Misdemeanors(Petty Crimes)</button>
+          </div>
+          <div class="col-lg-4">
+              <button type="button" id="bt-18" style="background-color: #1877F2;color: white;" class="btn btn-lg">Feloness(Serious Crimes)</button>
+          </div>
+      </div>
+      <div class="row" id="btn10" style="text-align: center;">
+        <div class="col-lg-4">
+            <button type="button" id="bt-19" style="background-color: #1877F2;color: white;" class="btn btn-lg">Narcotic drugs<br>or<br>Psychotrophic Substances</button>
+        </div>
+        <div class="col-lg-4">
+            <button type="button" id="bt-20" style="background-color: #1877F2;color: white;" class="btn btn-lg">Sexual Assaults</button>
+        </div>
+        <div class="col-lg-4">
+            <button type="button" id="bt-21" style="background-color: #1877F2;color: white;" class="btn btn-lg">non - Ethical Hacking</button>
+        </div>
+    </div>
+    <div class="row" id="btn11" style="text-align: center;">
+      <div class="col-lg-12">
+          <p id="p-7" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 8<br>
+          ACT : Narcotic Drugs and Psychotrophic Substances act 1985.<br>Prohibition of sale and purchase or cultivation of 
+          Narcotic Drugs<br>Court : Special Court(region) and Session Court(Punishment)<br>
+              Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , BAR Association</p>
+      </div>
+      <div class="col-lg-12">
+          <p id="p-8" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 3<br>
+          Act : Pocso Act 2012<br>Penetrative sexual Assaults<br>Court: Special Pocso Court<br>
+          Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , BAR Association</p>
+      </div>
+      <div class="col-lg-12">
+          <p id="p-9" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 43<br>
+          ACT : Information technology act 2000<br>Penalty for aunauthorized access of damaged to computer Systems<br>Court: Magistrate Court , Cyber Crime Cell<br>
+          Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , BAR Association</p>
+      </div>
+  </div>
+  <div class="row" id="btn12" style="text-align: center;">
+    <div class="col-lg-4">
+        <button type="button" id="bt-22" style="background-color: #1877F2;color: white;" class="btn btn-lg">Minor Assaults</button>
+    </div>
+    <div class="col-lg-4">
+        <button type="button" id="bt-23" style="background-color: #1877F2;color: white;" class="btn btn-lg">Petty Thefts</button>
+    </div>
+    <div class="col-lg-4">
+        <button type="button" id="bt-24" style="background-color: #1877F2;color: white;" class="btn btn-lg">Traffic Offences</button>
+    </div>
+</div>
+<div class="row" id="btn13" style="text-align: center;">
+  <div class="col-lg-12">
+      <p id="p-10" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 352<br>
+      ACT : The Indian Penal Code 1860 ACT .<br>Provides Punishment for Voluntarily Causing an Assaults<br>
+      <br>Court : Magistrate Courts , Judicial Magistrate of First class<br>
+          Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , </p>
+  </div>
+  <div class="col-lg-12">
+      <p id="p-11" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 380<br>
+      Act : Commison of Inquiry Act 1952<br>Pertains to theft in a abandoned house ,building etc<br>Court:Metropolitan Magistrate ,District and Session Courts<br>
+      Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) ,</p>
+  </div>
+  <div class="col-lg-12">
+      <p id="p-12" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 181<br>
+      ACT : Motor Vehicle act 1988<br>Driving Without a Valid Liscence<br>Court: RTO(Regional Transport Offices)<br>
+      Legal aid : NGO's(Non Governmental Organizations),National Legal service Authority </p>
+  </div>
+</div>
+<div class="row" id="btn14" style="text-align: center;">
+  <div class="col-lg-4">
+      <button type="button" id="bt-25" style="background-color: #1877F2;color: white;" class="btn btn-lg">Robbery</button>
+  </div>
+  <div class="col-lg-4">
+      <button type="button" id="bt-26" style="background-color: #1877F2;color: white;" class="btn btn-lg">Kidnapping</button>
+  </div>
+  <div class="col-lg-4">
+      <button type="button" id="bt-27" style="background-color: #1877F2;color: white;" class="btn btn-lg">Arson(related to Explosives)</button>
+  </div>
+</div>
+<div class="row" id="btn15" style="text-align: center;">
+  <div class="col-lg-12">
+      <p id="p-13" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 390<br>
+      ACT :ACT of Theft 1968<br>Defines the offence of robbery and Provides Punishment<br>
+      <br>Court : Sessions Court ,High Courts<br>
+          Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) , </p>
+  </div>
+  <div class="col-lg-12">
+      <p id="p-14" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is :Section 363<br>
+      Act : Criminal Law Amendment Act 2018<br>Defines the Offences of Kidnapping and Provides Punishment
+      <br>Court : Magistrate Courts ,Judicial Magistrate Of First Class and District Courts <br>
+      Legal aid : National Legal service Authority , Ngos(Non Governmental Organizations) ,</p>
+  </div>
+  <div class="col-lg-12">
+      <p id="p-15" style="background-color: #1877F2;color: white;text-align: center;border-radius: 10px;" class="lead">Section is : Section 438<br>
+      ACT : IPC(Indian Penal Court) of 1860<br>Mischief by Fire or Explosive Substances with Intend To destroy<br>Court: Session Court , High Court and Supreme Court <br>
+      Legal aid : NGO's(Non Governmental Organizations),National Legal service Authority </p>
+  </div>
+</div>
+        
+        
+    </div>
+
+    <script>
+        const bt1button = document.getElementById('bt-1');
+        const bt2button = document.getElementById('bt-2');
+        const bt3button = document.getElementById('bt-3');
+        const bt4button = document.getElementById('bt-4');
+        const bt5button = document.getElementById('bt-5');
+        const bt6button = document.getElementById('bt-6');
+        const bt7button = document.getElementById('bt-7');
+        const bt8button = document.getElementById('bt-8');
+        const bt9button = document.getElementById('bt-9');
+        const bt10button = document.getElementById('bt-10');
+        const bt11button = document.getElementById('bt-11');
+        const bt12button = document.getElementById('bt-12');
+        const bt13button = document.getElementById('bt-13');
+        const bt14button = document.getElementById('bt-14');
+        const bt15button = document.getElementById('bt-15');
+        const bt16button = document.getElementById('bt-16');
+        const bt17button = document.getElementById('bt-17');
+        const bt18button = document.getElementById('bt-18');
+        const bt19button = document.getElementById('bt-19');
+        const bt20button = document.getElementById('bt-20');
+        const bt21button = document.getElementById('bt-21');
+        const bt22button = document.getElementById('bt-22');
+        const bt23button = document.getElementById('bt-23');
+        const bt24button = document.getElementById('bt-24');
+        const bt25button = document.getElementById('bt-25');
+        const bt26button = document.getElementById('bt-26');
+        const bt27button = document.getElementById('bt-27');
+
+        const btn0button = document.getElementById('btn0');
+        const btn1button = document.getElementById('btn1');
+        const btn2button = document.getElementById('btn2');
+        const btn3button = document.getElementById('btn3');
+        const btn4button = document.getElementById('btn4');
+        const btn5button = document.getElementById('btn5');
+        const btn6button = document.getElementById('btn6');
+        const btn7button = document.getElementById('btn7');
+        const btn8button = document.getElementById('btn8');
+        const btn9button = document.getElementById('btn9');
+        const btn10button = document.getElementById('btn10');
+        const btn11button = document.getElementById('btn11');
+        const btn12button = document.getElementById('btn12');
+        const btn13button = document.getElementById('btn13');
+        const btn14button = document.getElementById('btn14');
+        const btn15button = document.getElementById('btn15');
+
+        const p1button = document.getElementById('p-1');
+        const p2button = document.getElementById('p-2');
+        const p3button = document.getElementById('p-3');
+        const p4button = document.getElementById('p-4');
+        const p5button = document.getElementById('p-5');
+        const p6button = document.getElementById('p-6');
+        const p7button = document.getElementById('p-7');
+        const p8button = document.getElementById('p-8');
+        const p9button = document.getElementById('p-9');
+        const p10button = document.getElementById('p-10');
+        const p11button = document.getElementById('p-11');
+        const p12button = document.getElementById('p-12');
+        const p13button = document.getElementById('p-13');
+        const p14button = document.getElementById('p-14');
+        const p15button = document.getElementById('p-15');
+
+        btn1button.style.display='none';
+        btn2button.style.display='none';
+        btn3button.style.display='none';
+        btn4button.style.display='none';
+        btn5button.style.display='none';
+        btn6button.style.display='none';
+        btn7button.style.display='none';
+        btn8button.style.display='none';
+        btn9button.style.display='none';
+        btn10button.style.display='none';
+        btn11button.style.display='none';
+        btn12button.style.display='none';
+        btn13button.style.display='none';
+        btn14button.style.display='none';
+        btn15button.style.display='none';
+
+        const h1button = document.getElementById('header');
+
+      //script 1  
+        bt1button.addEventListener('click', () => {
+      if (btn1button.style.display === 'none') {
+        btn1button.style.display = 'flex';
+        btn0button.style.display = 'none';
+        h1button.innerHTML = bt1button.innerHTML;
+      } else { };
+
+    });
+        bt5button.addEventListener('click', () => {
+      if (btn2button.style.display === 'none') {
+        btn2button.style.display = 'flex';
+        btn1button.style.display = 'none';
+        h1button.innerHTML = bt5button.innerHTML;
+      } else { };
+
+    });
+        bt8button.addEventListener('click', () => {
+      if (btn3button.style.display === 'none') {
+        btn3button.style.display = 'flex';
+        btn2button.style.display = 'none';
+        h1button.innerHTML = bt8button.innerHTML;
+      } else { };
+
+    });
+        bt11button.addEventListener('click', () => {
+      if (btn4button.style.display === 'none') {
+        btn4button.style.display = 'flex';
+        btn3button.style.display = 'none';
+        p2button.style.display ='none';
+        h1button.innerHTML = bt11button.innerHTML;
+      } else { };
+
+    });
+        bt10button.addEventListener('click', () => {
+      if (btn4button.style.display === 'none') {
+        btn4button.style.display = 'flex';
+        btn3button.style.display = 'none';
+        p1button.style.display ='none';
+        h1button.innerHTML = bt10button.innerHTML;
+      } else { };
+
+    });
+        bt9button.addEventListener('click', () => {
+      if (btn5button.style.display === 'none') {
+        btn5button.style.display = 'flex';
+        btn2button.style.display = 'none';
+        h1button.innerHTML = bt9button.innerHTML;
+      } else { };
+
+    });
+    bt12button.addEventListener('click', () => {
+      if (btn6button.style.display === 'none') {
+        btn6button.style.display = 'flex';
+        btn5button.style.display = 'none';
+        p3button.style.display ='none';
+        h1button.innerHTML = bt12button.innerHTML;
+      } else { };
+
+    });
+    bt13button.addEventListener('click', () => {
+      if (btn6button.style.display === 'none') {
+        btn6button.style.display = 'flex';
+        btn5button.style.display = 'none';
+        p4button.style.display ='none';
+        h1button.innerHTML = bt13button.innerHTML;
+      } else { };
+
+    });
+    bt6button.addEventListener('click', () => {
+      if (btn7button.style.display === 'none') {
+        btn7button.style.display = 'flex';
+        btn1button.style.display = 'none';
+        h1button.innerHTML = bt6button.innerHTML;
+      } else { };
+    });
+    bt14button.addEventListener('click', () => {
+      if (btn8button.style.display === 'none') {
+        btn8button.style.display = 'flex';
+        btn7button.style.display = 'none';
+        p5button.style.display ='none';
+        h1button.innerHTML = bt14button.innerHTML;
+      } else { };
+
+    });
+    bt15button.addEventListener('click', () => {
+      if (btn8button.style.display === 'none') {
+        btn8button.style.display = 'flex';
+        btn7button.style.display = 'none';
+        p6button.style.display ='none';
+        h1button.innerHTML = bt15button.innerHTML;
+      } else { };
+
+    });
+    // Script 2
+    bt2button.addEventListener('click', () => {
+      if (btn9button.style.display === 'none') {
+        btn9button.style.display = 'flex';
+        btn0button.style.display = 'none';
+        h1button.innerHTML = bt2button.innerHTML;
+      } else { };
+    });
+    bt16button.addEventListener('click', () => {
+      if (btn10button.style.display === 'none') {
+        btn10button.style.display = 'flex';
+        btn9button.style.display = 'none';
+        h1button.innerHTML = bt16button.innerHTML;
+      } else { };
+
+    });
+    bt19button.addEventListener('click', () => {
+      if (btn11button.style.display === 'none') {
+        btn11button.style.display = 'flex';
+        btn10button.style.display = 'none';
+        p8button.style.display ='none';
+        p9button.style.display ='none';
+        h1button.innerHTML = bt19button.innerHTML;
+      } else { };
+
+    });
+    bt20button.addEventListener('click', () => {
+      if (btn11button.style.display === 'none') {
+        btn11button.style.display = 'flex';
+        btn10button.style.display = 'none';
+        p7button.style.display ='none';
+        p9button.style.display ='none';
+        h1button.innerHTML = bt20button.innerHTML;
+      } else { };
+
+    });
+    bt21button.addEventListener('click', () => {
+      if (btn11button.style.display === 'none') {
+        btn11button.style.display = 'flex';
+        btn10button.style.display = 'none';
+        p7button.style.display ='none';
+        p8button.style.display ='none';
+        h1button.innerHTML = bt21button.innerHTML;
+      } else { };
+
+    });
+    bt17button.addEventListener('click', () => {
+      if (btn12button.style.display === 'none') {
+        btn12button.style.display = 'flex';
+        btn9button.style.display = 'none';
+        h1button.innerHTML = bt17button.innerHTML;
+      } else { };
+
+    });
+    bt22button.addEventListener('click', () => {
+      if (btn13button.style.display === 'none') {
+        btn13button.style.display = 'flex';
+        btn12button.style.display = 'none';
+        p11button.style.display ='none';
+        p12button.style.display ='none';
+        h1button.innerHTML = bt22button.innerHTML;
+      } else { };
+
+    });
+    bt23button.addEventListener('click', () => {
+      if (btn13button.style.display === 'none') {
+        btn13button.style.display = 'flex';
+        btn12button.style.display = 'none';
+        p10button.style.display ='none';
+        p12button.style.display ='none';
+        h1button.innerHTML = bt23button.innerHTML;
+      } else { };
+
+    });
+    bt24button.addEventListener('click', () => {
+      if (btn13button.style.display === 'none') {
+        btn13button.style.display = 'flex';
+        btn12button.style.display = 'none';
+        p10button.style.display ='none';
+        p11button.style.display ='none';
+        h1button.innerHTML = bt24button.innerHTML;
+      } else { };
+
+    });
+    bt18button.addEventListener('click', () => {
+      if (btn14button.style.display === 'none') {
+        btn14button.style.display = 'flex';
+        btn9button.style.display = 'none';
+        h1button.innerHTML = bt18button.innerHTML;
+      } else { };
+    });
+    bt25button.addEventListener('click', () => {
+      if (btn15button.style.display === 'none') {
+        btn15button.style.display = 'flex';
+        btn14button.style.display = 'none';
+        p14button.style.display ='none';
+        p15button.style.display ='none';
+        h1button.innerHTML = bt25button.innerHTML;
+      } else { };
+
+    });
+    bt26button.addEventListener('click', () => {
+      if (btn15button.style.display === 'none') {
+        btn15button.style.display = 'flex';
+        btn14button.style.display = 'none';
+        p13button.style.display ='none';
+        p15button.style.display ='none';
+        h1button.innerHTML = bt26button.innerHTML;
+      } else { };
+
+    });
+    bt27button.addEventListener('click', () => {
+      if (btn15button.style.display === 'none') {
+        btn15button.style.display = 'flex';
+        btn14button.style.display = 'none';
+        p13button.style.display ='none';
+        p15button.style.display ='none';
+        h1button.innerHTML = bt27button.innerHTML;
+      } else { };
+
+    });
+    
+
+    
+
+
+
+
+    </script>
+{% endblock content %}

@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Vidhi Vicharam</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="icon" href="{% static 'logo/logo.jpeg' %}" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/11ca954a77.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/11.0.1/markdown-it.min.js" integrity="sha512-hW0KbtvDnXCHbh2UCNP/6R+oXxCKiOfm9ciuUekdGBCQF1+57bGqZAk3sAFir7PMQstyRW0UecsSc2HQotH2vg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/default.min.css" integrity="sha512-kZqGbhf9JTB4bVJ0G8HCkqmaPcRgo88F0dneK30yku5Y/dep7CZfCnNml2Je/sY4lBoqoksXz4PtVXS4GHSUzQ==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/kotlin.min.js" integrity="sha512-8aYTnyDstX39PHxorDD+6ROknf98Vqr5KTOjwRCl/442uAVKOpCJ5wY9I3VQ6y46rdDJKYBIglIfE2+GQk8U5Q==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="background-color: #eee8ff;overflow-x: hidden;">
+    {% include 'home/snippets/header.html' %}
+    <div style="background-color: #000060; margin-bottom: 20px;" class="row">
+        <div class="col-lg-12">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #000060">
+                <div class="container">
+                    <h1 class="display-4" style="color: #fff;">Welcome to Vidhi Vicharam</h1>
+                    <ul class="lead" style="color: #fff;list-style-type: square;">
+                        <li><b>VidhiVicharam,</b> the first free Legal Advisor of India is based on the decision tree Approach
+                            Machine Learning technology.It was created to help common people like you understand the complexities of
+                            Indian law without charging them any fee.</li>
+                        <li>VidhiVicharam uses Machine Learning to deliver insightful online consulation on range of legal topic,to
+                            know your rights and duties.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div style="display: flex;justify-content: center;margin-bottom: 30px;">
+            <h1 class="display-4" style="color: #000060;justify-content: center;">Areas of Expertise
+            </h1>
+        </div>
+        <div class="card-deck">
+            <div style="background-color: dimgray;" class="card text-center text-white">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Family Law</h5>
+                    <ul class="card-text" style="text-align: left;" type="square">
+                        <li>Marriage,divorse and seperation</li>
+                        <li>Child custody and support</li>
+                        <li>Adoption and Guardianship</li>
+                        <li>Maintenance and Alimony</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="background-color: #000060;" class="card text-center text-white">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Criminal Law</h5>
+                    <ul class="card-text" style="text-align: left;" type="square">
+                        <li>Offenses and penalities</li>
+                        <li>Accidents and procedures</li>
+                        <li>Bail and anticipatory</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card text-center text-white bg-info">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Property law</h5>
+                    <ul class="card-text" style="text-align: left;" type="square">
+                        <li>Purchase and sale regardings</li>
+                        <li>Tenant disputes</li>
+                        <li>Development and construction</li>
+                        <li>Copyrights</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="background-color: #e45f04;" class="card text-center text-white">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Labor law</h5>
+                    <ul class="card-text" style="text-align: left;" type="square">
+                        <li>Employments contracts</li>
+                        <li>Workplace harassments</li>
+                        <li>Wage and hour regulations</li>
+                        <li>Terminations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 35px; background-color: #000060;" class="jamb jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="color: #fff;" class="display-4" style="margin-bottom: 10px;">Vision & Mission</h1>
+            <p style="color: #fff;" class="lead">This website work with a vision for the welfare of the general public. It believes in providing accurate
+                and affordable legal advice to the clients and serve the common people
+                Improvising the access to Justice for citizens through a better understanding of the legal information
+                and guidance.<br><br>
+                Widely implemented among the society regarding the common user rights of fundamental doors of Laws.
+                Justice delivered to each and every individual coming for legal help.</p>
+        </div>
+    </div>
+    {% include 'home/snippets/footer.html' %}
+</body>
+</html>
